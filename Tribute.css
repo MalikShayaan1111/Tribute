@@ -1,0 +1,206 @@
+body{
+    background-color:  #fae9df;
+    color: #dc8c8c;
+}
+p{
+    color: #b59c89;
+}
+ul ,li{
+    color: #b59c89;
+}
+h1{
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+    border-radius: 25px;
+    transition: all 1.5s ease;
+}
+h1:hover{
+    font-size:  40px;
+}
+nav{
+  
+    display: flex;
+    background-color: #f3cece;
+
+}
+nav .site_name{
+    width: 95%;
+}
+
+nav .logo{
+    width: 25%;
+}
+.logo{
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+}
+.logo i{
+   
+    font-size: 25px;
+    align-items: center;
+}
+
+.nav-bar{
+    display: none;
+   
+}
+
+
+.logo:hover + .nav-bar{
+    transform: translateX(100%);
+    /* text-align: center; */
+    display: inline;
+    display: flex;
+    /* flex-direction: column; */
+    /* list-style: none; */
+    /* text-decoration: none; */
+}
+
+.container{
+    display: flex;
+}
+
+.section1{
+    width: 60%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.section2{
+    padding: 25px 0;
+    width: 40%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    height: 55vh;
+    width: 75%;
+    border-radius: 25px;
+    float: right;
+    
+}
+
+
+
+.hide1{
+    display: none;
+}
+
+
+.Introduction:hover +  .hide1{
+   
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.hide2{
+    display: none;
+}
+
+.life:hover + .hide2{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    word-break: break;
+}
+
+.hide3{
+    display: none;
+}
+.contributions:hover + .hide3{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    word-break: break;
+}
+
+
+
+.hide4{
+    display: none;
+}
+
+.algebra:hover + .hide4{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    word-break: break;
+    
+}
+
+.hide5{
+    display: none;
+}
+
+.arithmetic:hover + .hide5{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    word-break: break;
+}
+
+.hide6{
+    display: none;
+}
+
+.trigonometric:hover + .hide6{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    word-break: break;
+}
+
+.hide7{
+    display: none;
+}
+
+.geography:hover + .hide7{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    word-break: break;
+}
+
+.hide8{
+    display: none;
+}
+
+.Jewish_calendar:hover + .hide8{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    word-break: break;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.other_works ,p{
+    text-align: center;
+}
+
+
+footer{
+    background-color: #8e6565;
+}
+footer p{
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: #da823f;
+}
